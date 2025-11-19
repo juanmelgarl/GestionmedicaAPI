@@ -48,8 +48,21 @@ namespace GestionmedicaAPI.Apiweb.Controllers
             {
                 return NotFound();
             }
-
+            /**/
             return Ok();
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Eliminar([FromRoute] int id)
+        {
+            if (id <= 0)
+                return BadRequest("El id debe ser mayor a 0");
+
+            var eliminado = await _Servicio.Eliminarpaciente(id);
+
+            if (!eliminado)
+                return NotFound("Producto no encontrado");
+
+            return Ok("Producto eliminado correctamente");
         }
     }
 }
