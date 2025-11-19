@@ -60,9 +60,9 @@ namespace GestionmedicaAPI.Apiweb.Controllers
             var eliminado = await _Servicio.Eliminarpaciente(id);
 
             if (!eliminado)
-                return NotFound("Producto no encontrado");
+                return NotFound("Paciente no encontrado");
 
-            return Ok("Producto eliminado correctamente");
+            return Ok("Paciente eliminado correctamente");
         }
     }
 }
