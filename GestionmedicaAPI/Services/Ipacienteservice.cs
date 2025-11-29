@@ -1,5 +1,4 @@
 ﻿using GestionmedicaAPI.Dtos.Request;
-using GestionmedicaAPI.Dtos.Response;
 
 namespace GestionmedicaAPI.Services
 {

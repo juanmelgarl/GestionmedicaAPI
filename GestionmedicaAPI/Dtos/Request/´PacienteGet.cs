@@ -1,4 +1,4 @@
-﻿namespace GestionmedicaAPI.Dtos.Response
+﻿namespace GestionmedicaAPI.Dtos.Request
 {
     public class _PacienteGet
     { 

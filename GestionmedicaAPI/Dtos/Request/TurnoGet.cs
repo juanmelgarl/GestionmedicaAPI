@@ -1,6 +1,6 @@
 ﻿using GestionmedicaAPI.Domain.Entidades;
 
-namespace GestionmedicaAPI.Dtos.Response
+namespace GestionmedicaAPI.Dtos.Request
 {
     public class TurnoGet
     {

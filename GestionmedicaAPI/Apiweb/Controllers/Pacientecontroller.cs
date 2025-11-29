@@ -1,5 +1,4 @@
 ﻿using GestionmedicaAPI.Dtos.Request;
-using GestionmedicaAPI.Dtos.Response;
 using GestionmedicaAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -64,5 +63,6 @@ namespace GestionmedicaAPI.Apiweb.Controllers
 
             return Ok("Paciente eliminado correctamente");
         }
+
     }
 }

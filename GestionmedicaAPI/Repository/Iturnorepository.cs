@@ -8,5 +8,9 @@ namespace GestionmedicaAPI.Repository
         Task<Turno> GetTurnoforid(int id);
         Task Save();
         Task Add(Turno turno);
+        Task Update(Turno turno);
+        Task Delete(Turno turno);
+        Task Updatepatch (Turno turno);
+       
     }
 }

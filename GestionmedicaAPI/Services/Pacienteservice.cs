@@ -1,6 +1,5 @@
 ﻿using GestionmedicaAPI.Domain.Entidades;
 using GestionmedicaAPI.Dtos.Request;
-using GestionmedicaAPI.Dtos.Response;
 using GestionmedicaAPI.Repository;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.ComponentModel.DataAnnotations.Schema;
